@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldy's Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Baldy's Website</div>
+            <ul class="nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="https://github.com/tannowenn/tannowenn.github.io">GitHub</a>
+                </li>
+                <li>
+                    <a href="store.html">Pet Store</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="headerbox">
+                <img src="images/buffbarney.jpg" />
+                <h1>Baldy Billdor</h1>
+            </div>
+            <div class="headerbox">
+                <div id="youtube-player"></div>
+                <h2>My Favorite Travel Destination <3</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <h2>Biography</h2>
+                <ul>
+                    <li>Deadlift - 683 lb (310 kg)</li>
+                    <li>Squat - 545 lb (247 kg)</li>
+                    <li>Bench press - 520 lb (240 kg)</li>
+                    <li>Clean and jerk - 298 lb (135 kg)</li>
+                    <li>Clean and press - 264 lb (120 kg)</li>
+                    <li>Snatch - 243 lb (110 kg)</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h2>About my Store</h2>
+                <p>I have a pet store which I physically built in one night. It was a good workout!</p><br>
+                <p>UPDATE: We now have new official pet products for sale! Our new pup "Princess" has just arrived and is now waiting for that special someone to spend her life with, could it be you?</p><br>
+                <a href="store.html"><button class="button">Visit Site!</button></a>
+            </div>
+
+            <div class="box">
+                <h2>About my Favorite Travel Destination</h2>
+                <p>Discover an extraordinary travel destination that transcends the ordinary imagination. Nestled in the heart of a hidden realm, this place boasts natural wonders beyond compare. Cascading waterfalls adorn lush landscapes, their beauty enhanced by the convergence of nature and advanced engineering. As you explore, you'll encounter mesmerizing wildlife that seems to move in harmony with the land, embodying a spirit of unity and strength.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <p>&copy; 2069 - Baldy Billdor. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        var player;
+    
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('youtube-player', {
+                height: '500',
+                videoId: 'WK_yQD_s8f8',
+                playerVars: {
+                    start: 28, // Start the video at 28 seconds
+                    autoplay: 1, // Autoplay
+                    mute: 1 // Muted
+                }
+            });
+        }
+    </script>    
+</body>
+</html>
