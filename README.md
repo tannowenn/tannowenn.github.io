@@ -1,2 +1,2 @@
-# test
-hi this my web store
+# hi
+welcom to my github page
