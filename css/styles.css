@@ -12,10 +12,6 @@ body {
     background: #e0f4e0;
 }
 
-h1, h2 {
-    margin-bottom: 15px;
-}
-
 ul {
     list-style-type: none;
 }
@@ -51,7 +47,7 @@ footer {
 }
 
 .button:hover {
-    background-color: #e0f4e0;
+    background-color: orchid;
     color: #006633;
 }
 
@@ -59,6 +55,20 @@ footer {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.navbar {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a {
+    justify-content: end;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: orchid;
 }
 
 .my-navbar {
