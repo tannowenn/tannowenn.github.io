@@ -34,6 +34,22 @@ footer {
     text-align: center;
 }
 
+.portfolio h1 {
+    font-weight: bold;
+}
+
+.portfolio h3 {
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.6);
+    font-weight: bold;
+}
+
+.portfolio img {
+    border-radius: 25px;
+    margin: auto;
+    max-width: 800px;
+}
+
 .button {
     background-color: #006633;
     color: #fff;

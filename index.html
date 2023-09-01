@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baldy's Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://www.youtube.com/iframe_api"></script>
 </head>
+
 <body>
     <!-- <nav class="my-navbar">
         <div class="my-container">
@@ -35,7 +39,8 @@
             <div id="navLinks" class="collapse navbar-collapse">
                 <div class="navbar-nav ms-auto">
                     <a href="#" class="nav-item nav-link">Home</a>
-                    <a href="https://github.com/tannowenn/tannowenn.github.io" target="_blank" class="nav-item nav-link">GitHub</a>
+                    <a href="https://github.com/tannowenn/tannowenn.github.io" target="_blank"
+                        class="nav-item nav-link">GitHub</a>
                     <a href="store.html" class="nav-item nav-link">Store</a>
                 </div>
             </div>
@@ -50,15 +55,61 @@
             </div>
             <div class="headerbox">
                 <div id="youtube-player">Loading video...<br>If this takes too long, try refreshing the page.</div>
-                <h2 class="fs-2">My Favorite Travel Destination <3</h2>
+                <h2 class="fs-2">My Favorite Travel Destination &lt;3</h2>
             </div>
         </div>
     </header>
 
+    <section class="portfolio">
+        <div class="my-container">
+            <div class="box">
+                <h1 class="text-center">Portfolio</h1>
+                <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/transformation.jpg" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>My Amazing Transformation</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/dalle1.png" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Freshman Days!</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/dalle2.png" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Sophomore Days!</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sidecurl.png" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>My Son's Cute Drawing of Me!</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="boxes">
         <div class="my-container">
             <div class="box">
-                <h2>Biography</h2>
+                <h3 class="text-center fw-bold">Biography</h3>
                 <p>
                     Deadlift - 683 lb (310 kg)<br>
                     Squat - 545 lb (247 kg)<br>
@@ -70,26 +121,31 @@
             </div>
 
             <div class="box">
-                <h2>About My Store</h2>
-                <p>I have a pet store which I physically built in one night. It was a good workout!</p><br>
-                <p>UPDATE: We now have new official pet products for sale! Our new pup "Princess" has just arrived and is now waiting for that special someone to spend her life with, could it be you?</p><br>
-                <a href="store.html"><button type="button" class="btn btn-outline-success button">Visit Site!</button></a>
+                <h3 class="text-center fw-bold">About My Store</h3>
+                <p>I have a pet store which I physically built in one night. It was a good workout!</p>
+                <p><span class="fw-bold">UPDATE:</span> We now have new official pet products for sale! Our new pup "Princess" has just arrived and
+                    is now waiting for that special someone to spend her life with, could it be you?</p>
+                <a href="store.html">
+                    <button type="button" class="btn btn-outline-success button fw-bold">Visit Site!</button>
+                </a>
             </div>
 
             <div class="box">
-                <h2>About My Favorite Travel Destination</h2>
-                <p>Discover an extraordinary travel destination that transcends the ordinary imagination. Nestled in the heart of a hidden realm, this place boasts natural wonders beyond lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 class="text-center fw-bold">About My Favorite Travel Destination</h3>
+                <p>Discover an extraordinary travel destination that transcends the ordinary imagination. Nestled in the
+                    heart of a hidden realm, this place boasts natural wonders beyond lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
     </section>
 
     <footer>
-            <p>&copy; 2069 - Baldy Billdor. All Rights Reserved.</p>
+        <p>&copy; 2069 - Baldy Billdor. All Rights Reserved.</p>
     </footer>
 
     <script>
         var player;
-    
+
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('youtube-player', {
                 height: '600',
@@ -102,6 +158,9 @@
             });
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
