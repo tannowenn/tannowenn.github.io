@@ -55,43 +55,43 @@ footer {
     color: #006633;
 }
 
-.container {
+.my-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-.navbar {
+.my-navbar {
     background: #006633;
     color: #fff;
     height: 60px;
 }
 
-.navbar a {
+.my-navbar a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
 
-.navbar a:hover {
+.my-navbar a:hover {
     color: orchid;
 }
 
-.navbar ul {
+.my-navbar ul {
     display: flex;
 }
 
-.navbar ul li {
+.my-navbar ul li {
     margin-left: 20px;
 }
 
-.navbar .logo {
+.my-navbar .logo {
     font-size: x-large;
     font-weight: bold;
 }
 
-.navbar .container {
+.my-navbar .my-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,7 @@ footer {
     line-height: 1.2;
 }
 
-.header .container {
+.header .my-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,7 +134,7 @@ footer {
     width: 100%;
 }
 
-.boxes .container {
+.boxes .my-container {
     display: flex;
     justify-content: space-between;
 }
@@ -154,13 +154,13 @@ footer {
         height: 100%;
     }
     
-    .header .container {
+    .header .my-container {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
     }
 
-    .boxes .container {
+    .boxes .my-container {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
@@ -171,7 +171,7 @@ footer {
         width: 60%;
     }
 
-    .navbar {
+    .my-navbar {
         height: 80px;
     }
 }
